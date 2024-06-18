@@ -20,28 +20,28 @@ Binary decision trees are a fundamental data structure used in game theory to mo
 To use this implementation, you can clone the repository and compile the provided C files. Here's how to get started:
 
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/your-username/GameTheoryDecisionTree.git
    cd GameTheoryDecisionTree
 Compile the source files (assuming you have GCC installed):
 
-   ```bash
+   
 
 gcc -Wall -Werror -Wextra -pedantic -std=c89 main.c decision_tree.c -o decision_tree
 Run the executable:
-	```
+	
 
 
-	``bash
+
 ./decision_tree
 Implementation Details
 The implementation includes functions for creating nodes, inserting decisions, printing the tree structure, and freeing allocated memory. It demonstrates a simple way to build and traverse binary decision trees for educational purposes.
-	```
+
 	
 ## Examples
 Here's an example of how the decision tree might be constructed and printed:
 
-    ```shell
+ ```shell
 Copy code
 #include "decision_tree.h"
 
@@ -62,7 +62,7 @@ int main(void)
 
     return 0;
 }
-		```
+```
 		
 ## Contributing
 Contributions are welcome! If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request. Please adhere to the code style used in the project and ensure all tests pass before submitting.
@@ -73,7 +73,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 vbnet
 Copy code
 
-### Notes:
+## Notes:
 - Replace `your-username` with your actual GitHub username in the clone URL.
 - Customize the example code in the `Examples` section to fit your specific implementation details.
 - Ensure to include a `LICENSE` file in your repository directory if you decide to use a specific license other than the MIT License mentioned.

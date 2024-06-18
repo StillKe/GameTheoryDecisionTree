@@ -25,12 +25,14 @@ To use this implementation, you can clone the repository and compile the provide
    cd GameTheoryDecisionTree
 Compile the source files (assuming you have GCC installed):
 
-   
+2. Compile the source files (assuming you have GCC installed):
 
+```shell
 gcc -Wall -Werror -Wextra -pedantic -std=c89 main.c decision_tree.c -o decision_tree
-Run the executable:
-	
+```
 
+3. Run the executable:
+	
 
 ```shell
 ./decision_tree

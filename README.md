@@ -32,9 +32,11 @@ Run the executable:
 	
 
 
-
+```shell
 ./decision_tree
-Implementation Details
+```
+
+## Implementation Details
 The implementation includes functions for creating nodes, inserting decisions, printing the tree structure, and freeing allocated memory. It demonstrates a simple way to build and traverse binary decision trees for educational purposes.
 
 	
@@ -42,7 +44,7 @@ The implementation includes functions for creating nodes, inserting decisions, p
 Here's an example of how the decision tree might be constructed and printed:
 
  ```shell
-Copy code
+
 #include "decision_tree.h"
 
 int main(void)
@@ -70,12 +72,13 @@ Contributions are welcome! If you have ideas for improvements or new features, f
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy code
 
+
+```shell
 ## Notes:
 - Replace `your-username` with your actual GitHub username in the clone URL.
 - Customize the example code in the `Examples` section to fit your specific implementation details.
 - Ensure to include a `LICENSE` file in your repository directory if you decide to use a specific license other than the MIT License mentioned.
 
 This `README.md` file provides an overview of the repository's purpose, instructions for usage, implementation details, examples, guidelines for contributing, and information about the project's license. Adjust and expand it according to your project's specific needs and details.
+```
